@@ -1,0 +1,9 @@
+  inteiro a,b , soma, resultado
+    escreva("qual o valor de a")
+    leia(a)
+    escreva("qual o valor de b")
+    leia(b)
+    soma = a + b
+    resultado = soma * soma
+    escreva("quadrado da soma ", resultado)
+  }
