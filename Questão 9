@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    inteiro opcao
+    real saldo
+    saldo = 0
+    opcao = 0
+    enquanto (opcao <> 4)
+    escreva("1 ver saldo")
+    escreva("2 realizar deposito")
+    escreva("3 atendimento em andamento")
+    escreva("4 encerrar atendimento")
+    leio(opcao)
+    caso 1
+    escreva("saldo ", saldo)
+    caso 2
+    escreva("digite o valor do deposito")
+    leio(saldo)
+    caso 3
+   escreva("atendimento em andamento")
+   caso 4
+   escreva("encerrando atendimento ")
+   escreva("opcao invalida")
+  }
+}
