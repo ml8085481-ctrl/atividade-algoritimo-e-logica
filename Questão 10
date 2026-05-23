@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro nota, contador, satisfeito, insatisfeito
+    contador = 1
+    satisfeito = 0
+    insatisfeito = 0
+    enquanto = (contador <= 6)
+    escreva("digite a nota do cliente")
+    leia(nota)
+    se (nota >= 4){
+      satisfeito = satisfeito + 1
+      senao
+      insatisfeito = insatisfeito + 1
+      } contador = contador + 1
+
+  }escreva("cliente satisfeito ", satisfeito)
+  escreva("cliente insatisfeito " , insatisfeito)
+}
