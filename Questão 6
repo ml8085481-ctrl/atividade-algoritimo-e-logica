@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    caractere nome , portugues , conhecimento 
+    real media , matematiaca 
+   escreva("nome do candidato")
+   leia(nome )
+   escreva("Nota de Português: ")
+   leia(portugues)
+  escreva("Nota de Matemática: ")
+  leia(matematica)
+  escreva("Nota de Conhecimentos Gerais: ")
+  leia(conhecimentos)
+  media = (portugues + matematiaca + conhecimento )/3
+  escreva("media " , media)
+  se (media >= 7) e (portugues >= 5 ) e (matematiaca >= 5) e (conhecimento >= 5){
+    escreva("candidato aprovado ")
+    senao 
+    escreva("candidato reprovado")
+  }
+  }
+}
